@@ -42,6 +42,11 @@ public class Main {
         //get int with and without bound
 
         // get double
+        double randDoulbe = randObj.nextDouble();
+        System.out.println(randDouble);
+        
+        double randDoubleTwo = randObj.nextDouble(origin:50, bound:100);
+        System.out.println(randDOubleTwo);
 
 
 
@@ -49,3 +54,9 @@ public class Main {
 
     }
 }
+
+
+
+
+public class Main {
+    public static void main(String[]args
